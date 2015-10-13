@@ -1,0 +1,73 @@
+﻿<Window x:Class="Adressbuch_Maxi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Adressbuch_Maxi"
+        mc:Ignorable="d" Loaded="MainWindow_OnLoaded"
+        Title="Adress-Manager" Height="620" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Resources>
+            <Style x:Key="Feldüberschrift" TargetType="TextBlock">
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="Foreground" Value="DarkOliveGreen"/>
+                <Setter Property="Margin" Value="0,4,0,2"/>
+            </Style>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="475"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="320"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Column="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" 
+                   FontSize="24" Text="Adressbuch" VerticalAlignment="Bottom" Foreground="DarkOliveGreen"/>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <TextBlock Text="Anrede" Style="{StaticResource Feldüberschrift}" />
+            <ComboBox Name="cbx_anrede">
+                
+            </ComboBox>
+            <TextBlock Text="Nachname" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_nachname" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="Vorname" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_vorname" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="Geburtsdatum" Style="{StaticResource Feldüberschrift}" />
+            <DatePicker Name="dp_gebdate" Height="23"></DatePicker>
+            <TextBlock Text="Straße und Hausnummer" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_street" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="Postleitzahl / PLZ" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_plz" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="Ort" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_ort" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="Telefonnummer" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_telnr" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBlock Text="E-Mail" Style="{StaticResource Feldüberschrift}" />
+            <TextBox Name="tbx_mail" Height="20" Text="0049-...-........" VerticalContentAlignment="Bottom" />
+        </StackPanel>
+
+
+
+        <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
+            <Button Height="30" Width="40" Content="Speichern" VerticalAlignment="Top" Margin="0,0,10,0" Click="b_save"></Button>
+            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
+            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
+            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="3" Grid.Row="2">
+            <ListBox Height="400">
+                <ListBoxItem>Item1</ListBoxItem>
+                <ListBoxItem>Item2</ListBoxItem>
+                <ListBoxItem>Item3</ListBoxItem>
+                <ListBoxItem>Item4</ListBoxItem>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
