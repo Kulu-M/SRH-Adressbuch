@@ -8,14 +8,13 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using Adressbuch;
+using Adressbuch_Maxi;
 
 
-namespace Adressbuch
+namespace Adressbuch_Maxi
 {
     class SpeichernLaden
     {
-        //SPEICHERN
         public static void writeBinary<T>(string datei, T zuSpeichern)
         {
             FileStream fs = null;
@@ -33,8 +32,7 @@ namespace Adressbuch
             }
         }
 
-        //LADEN
-        internal static T readBinary<T>(string datei)
+        internal static T readBinary<T>(string datei, T zuLaden)
         {
 
             T output;

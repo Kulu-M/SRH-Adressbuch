@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adressbuch
+namespace Adressbuch_Maxi
 {
     [Serializable]
     public class Kontakt
@@ -19,18 +19,7 @@ namespace Adressbuch
         public string telnr { get; set; }
         public string email { get; set; }
         public Anrede anrede { get; set; }
-
-
-        public Kontakt()
-        {
-            Properties.Settings.Default.last_id++;
-            iD = String.Format("i{0:0000}", Properties.Settings.Default.last_id);
-
-            nachname = "Bitte vervollständigen";
-            gebDatum = new DateTime(1990, 1, 1);
-
-            Properties.Settings.Default.Save();
-        }
+        
 
     }
 

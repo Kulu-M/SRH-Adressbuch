@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("Adressbuch-Maxi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SRH Heidelberg")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Adressbuch-Maxi")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
@@ -53,5 +53,3 @@ using System.Windows;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: NeutralResourcesLanguage("de")]
-

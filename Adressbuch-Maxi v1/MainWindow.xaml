@@ -1,11 +1,11 @@
-﻿<Window x:Class="Adressbuch.MainWindow"
+﻿<Window x:Class="Adressbuch_Maxi.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Adressbuch"
-        mc:Ignorable="d" Loaded="MainWindow_OnLoaded" Closing="MainWindow_OnClosing"
-        Title="Adress-Manager" Height="600" Width="800" ResizeMode="NoResize">
+        xmlns:local="clr-namespace:Adressbuch_Maxi"
+        mc:Ignorable="d" Loaded="MainWindow_OnLoaded"
+        Title="Adress-Manager" Height="620" Width="800" ResizeMode="NoResize">
     <Grid>
         <Grid.Resources>
             <Style x:Key="Feldüberschrift" TargetType="TextBlock">
@@ -29,7 +29,7 @@
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="textBlock" Grid.Column="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" 
                    FontSize="24" Text="Adressbuch" VerticalAlignment="Bottom" Foreground="DarkOliveGreen"/>
-        <StackPanel Grid.Column="3" Grid.Row="2">
+        <StackPanel Grid.Column="1" Grid.Row="2">
             <TextBlock Text="Anrede" Style="{StaticResource Feldüberschrift}" />
             <ComboBox Name="cbx_anrede">
 
@@ -54,34 +54,26 @@
 
 
 
-        <!--<StackPanel Grid.Column="1" Grid.Row="2" Orientation="Horizontal">
-            <Button Height="30" Width="40" Content="Speichern" VerticalAlignment="Bottom" Margin="0,0,10,50" Click="b_save"></Button>
-            <Button Height="30" Width="40" Content="Laden" VerticalAlignment="Bottom" Margin="0,0,10,50" Click="b_load"></Button>
-            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Bottom" Margin="0,0,10,50"></Button>
-            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Bottom" Margin="0,0,10,50"></Button>
+        <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
+            <Button Height="30" Width="40" Content="Speichern" VerticalAlignment="Top" Margin="0,0,10,0" Click="b_save"></Button>
+            <Button Height="30" Width="40" Content="Laden" VerticalAlignment="Bottom" Margin="0,0,10,20" Click="b_load"></Button>
+            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
+            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Grid.Column="4" Grid.Row="0">
             <TextBlock Text="ID:" Style="{StaticResource Feldüberschrift}" ></TextBlock>
             <TextBlock Name="tb_id" Text=" 01" Style="{StaticResource Feldüberschrift}" ></TextBlock>
-        </StackPanel>-->
+        </StackPanel>
         
         
-        <StackPanel Grid.Column="1" Grid.Row="2">
-            <ListBox Name="lBx_kontakte" Height="400">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding iD}" Margin="0,0,5,0" Style="{StaticResource Feldüberschrift}"></TextBlock>
-                            <TextBlock Text="{Binding nachname}"></TextBlock>
-                        </StackPanel>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
+        <StackPanel Grid.Column="3" Grid.Row="2">
+            <ListBox Height="200">
+                <ListBoxItem>Item1</ListBoxItem>
+                <ListBoxItem>Item2</ListBoxItem>
+                <ListBoxItem>Item3</ListBoxItem>
+                <ListBoxItem>Item4</ListBoxItem>
             </ListBox>
-            <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
-                <Button Content="+" x:Name="b_add" Height="30" Width="30" Margin="0,0,10,0" FontSize="20" Click="b_add_Click" />
-                <Button Content="-" x:Name="b_del" Height="30" Width="30" Margin="0,0,10,0" FontSize="20" Click="b_del_Click" />
-            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>

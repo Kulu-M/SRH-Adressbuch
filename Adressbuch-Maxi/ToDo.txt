@@ -1,0 +1,24 @@
+﻿Von v1 zu v2:
+
++ Kontakte bearbeiten
++ Buttons
+	Hinzufügen
+	Löschen
++ Speichern der Kontakte
++ Einstellungen?
++ Filtern in ListBox
+
+
+Hausaufgabe:
++ Bei Click auf Eintrag sollen die Werten in den Boxen dargestellt werden
+++ Bei "Selection Changed" soll etwas passieren (Event)
++ Sollte etwas geändert werden, so soll gespeichert werden
+Bonusaufgabe: Bild einfügen (Erklärung kommt am Montag)
+-----
+Zweiter Fall: Ein Rennen (Autos, Hunde, Hühner, etc...)
+Dokumentation: Wie könnte das gehen?
+Von Links nach rechts bewegen sich Bilder
+-> Hauptteil Wettbüro, Bank, man kann wetten(auf ein Teilnehmer)
+Was braucht man? Klassen für Tiere, Spieler, KI Gegner, etc.
+Wie gewinnt jemand? Was passiert wenn mehrere Gewinnen? Kann die Bank pleite gehen?
+

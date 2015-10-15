@@ -22,17 +22,5 @@ namespace Adressbuch.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("5")]
-        public int last_id {
-            get {
-                return ((int)(this["last_id"]));
-            }
-            set {
-                this["last_id"] = value;
-            }
-        }
     }
 }

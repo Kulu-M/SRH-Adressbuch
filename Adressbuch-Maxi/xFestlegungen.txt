@@ -1,0 +1,5 @@
+﻿- iD: 5 Stellen, 1.Stelle= i
+
+- Kontakte werden in einer Spalte gezeigt damit kann man einen Kontakt anklicken und der Inhalt wird gezeigt
+
+* Links: id und nachname zeigen
