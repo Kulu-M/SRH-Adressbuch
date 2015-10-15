@@ -12,3 +12,17 @@ C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch_Maxi.Properties.Resources.resources
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch-Maxi\obj\Debug\Kontakte.csproj.GenerateResource.Cache
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch-Maxi\obj\Debug\Kontakte.csprojResolveAssemblyReference.cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\bin\Debug\Adressbuch-Maxi.exe.config
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch-Maxi.exe
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch-Maxi.pdb
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\bin\Debug\Adressbuch-Maxi.exe
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\bin\Debug\Adressbuch-Maxi.pdb
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Kontakte.csprojResolveAssemblyReference.cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\MainWindow.g.cs
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\App.g.cs
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch-Maxi_MarkupCompile.cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch-Maxi_MarkupCompile.lref
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\MainWindow.baml
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch-Maxi.g.resources
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Adressbuch_Maxi.Properties.Resources.resources
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch-Maxi\obj\Debug\Kontakte.csproj.GenerateResource.Cache

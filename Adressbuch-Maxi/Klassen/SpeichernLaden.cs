@@ -9,33 +9,35 @@ using System.Text;
 using System.Threading.Tasks;
 using Adressbuch_Maxi;
 
+
 namespace Adressbuch_Maxi
 {
     class SpeichernLaden
     {
-   
-
-    public static void writeBinary<T>(string datei, T zuSpeichern)
-    {
-        FileStream fs = null;
-        try
+        public static void writeBinary<T>(string datei, T zuSpeichern)
         {
-            BinaryFormatter bf = new BinaryFormatter();
-            fs = new FileStream(datei, FileMode.Create);
-            bf.Serialize(fs, zuSpeichern);
-            fs.Close();
-        }
-        catch (Exception e)
-        {
-            if(fs!=null)
+            FileStream fs = null;
+            try
+            {
+                BinaryFormatter bf = new BinaryFormatter();
+                fs = new FileStream(datei, FileMode.Create);
+                bf.Serialize(fs, zuSpeichern);
                 fs.Close();
+            }
+            catch (Exception)
+            {
+                if(fs!=null)
+                    fs.Close();
+            }
         }
-    }
 
-        internal static void schreibeBin<T>(string v, T kontakt)
+        internal static T readBinary<T>(string datei, T zuLaden)
         {
-            throw new NotImplementedException();
-        }
+            FileStream fs = null;
+            
+            BinaryFormatter bf = new BinaryFormatter();
+            fs = new FileStream(datei, FileMode.OpenOrCreate);
+            return (T)bf.Deserialize(fs);                 
+        }        
     }
-
 }

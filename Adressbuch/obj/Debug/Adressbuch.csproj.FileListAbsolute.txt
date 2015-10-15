@@ -23,3 +23,16 @@ C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch\obj\Debug\Adressbuch_Mark
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch\obj\Debug\Adressbuch.g.resources
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch\obj\Debug\Adressbuch.Properties.Resources.resources
 C:\Users\Kulu-M\Documents\GitHub\Adressbuch\Adressbuch\obj\Debug\Adressbuch.csproj.GenerateResource.Cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\bin\Debug\Adressbuch.exe.config
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.exe
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.pdb
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\bin\Debug\Adressbuch.exe
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\bin\Debug\Adressbuch.pdb
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.csprojResolveAssemblyReference.cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\MainWindow.baml
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\MainWindow.g.cs
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\App.g.cs
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch_MarkupCompile.cache
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.g.resources
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.Properties.Resources.resources
+C:\Users\Kulu\Documents\SRH-Adressbuch\Adressbuch\obj\Debug\Adressbuch.csproj.GenerateResource.Cache

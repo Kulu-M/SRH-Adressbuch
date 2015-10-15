@@ -32,7 +32,7 @@
         <StackPanel Grid.Column="1" Grid.Row="2">
             <TextBlock Text="Anrede" Style="{StaticResource Feldüberschrift}" />
             <ComboBox Name="cbx_anrede">
-                
+
             </ComboBox>
             <TextBlock Text="Nachname" Style="{StaticResource Feldüberschrift}" />
             <TextBox Name="tbx_nachname" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
@@ -56,11 +56,11 @@
 
         <StackPanel Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
             <Button Height="30" Width="40" Content="Speichern" VerticalAlignment="Top" Margin="0,0,10,0" Click="b_save"></Button>
-            <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
+            <Button Height="30" Width="40" Content="Laden" VerticalAlignment="Bottom" Margin="0,0,10,20" Click="b_load"></Button>
             <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
             <Button Height="30" Width="40" Content="Test" VerticalAlignment="Top" Margin="0,0,10,0"></Button>
         </StackPanel>
-        
+
         <StackPanel Grid.Column="3" Grid.Row="2">
             <ListBox Height="400">
                 <ListBoxItem>Item1</ListBoxItem>

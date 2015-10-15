@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Adressbuch_Maxi
 {
     /// <summary>
@@ -62,6 +63,17 @@ namespace Adressbuch_Maxi
 
             //Felder leeren:
             //felderFüllen(new Kontakt());
+        }
+
+        private void b_load(object sender, RoutedEventArgs e)
+        {
+            SpeichernLaden.readBinary<Kontakt>("savefile.dat", kontakt);
+
+            cbx_anrede.SelectedItem = kontakt.anrede;
+            tbx_nachname.Text = kontakt.nachname;
+            tbx_vorname.Text = kontakt.vorname;
+            dp_gebdate.SelectedDate = kontakt.gebDatum;
+
         }
     }
 }
