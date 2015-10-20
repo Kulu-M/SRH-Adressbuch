@@ -19,6 +19,7 @@ namespace Adressbuch
         public string telnr { get; set; }
         public string email { get; set; }
         public Anrede anrede { get; set; }
+        public string bildPath { get; set; }
 
 
         public Kontakt()

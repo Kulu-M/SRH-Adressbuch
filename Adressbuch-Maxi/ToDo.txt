@@ -14,11 +14,83 @@ Hausaufgabe:
 ++ Bei "Selection Changed" soll etwas passieren (Event)
 + Sollte etwas geändert werden, so soll gespeichert werden
 Bonusaufgabe: Bild einfügen (Erklärung kommt am Montag)
+
+
+
+Binding:
+
+vor der Main:
+Observablecollection<Kontakt> kontakte = new Observablecollection<Kontakt>();
+
+Windows Loaded so lassen
+
+ImgbildMouseLeftbuttonup lassen
+
+Im Stackpanel: "DataContext="{Binding ElementName=lbx_kontakte, Path=SelectedItem}"
+Bei den Textboxen: Text="{Binding nachname, Mode=TwoWay}"
+
+
 -----
+
+
+
+
 Zweiter Fall: Ein Rennen (Autos, Hunde, Hühner, etc...)
 Dokumentation: Wie könnte das gehen?
 Von Links nach rechts bewegen sich Bilder
 -> Hauptteil Wettbüro, Bank, man kann wetten(auf ein Teilnehmer)
 Was braucht man? Klassen für Tiere, Spieler, KI Gegner, etc.
 Wie gewinnt jemand? Was passiert wenn mehrere Gewinnen? Kann die Bank pleite gehen?
+------
+
+
+
+
+Festlegungen:
+
+Allgemein:
+	- Spieler hat Anfangsbetrag x
+	- Bank hat unbegrenzte Mittel
+	- Man wettet auf ein Auto
+	- Sollte gewähltes Auto erster werden, so wird der Einsatz als Gewinn verdoppelt
+	- Sollte gewähltes Auto nicht erster werden, wird eingesetztes Geld von Geldbeutel abegezogen
+	- Wenn Geld leer ist kann Kredit augenommen werden?
+
+
+Rennen:
+	- Anzahl X an Rennwägen
+	- Zufallsbasierte Ergebnisse
+	- Möglichkeit auf Ausfall eines Wagens
+	- Spieler Einfluss/Interaktion auf Rennen? Durch mehr Geldeinsatz --> höhere Ausfallwahrscheinlichkeit? (illegales Motortuning, etc...)
+
+
+Nach Rennen --> Ergebnisübersicht
+	- Welches Auto auf welchem Platz + Zeiten bzw. Ausfälle
+	- Sieg oder Niederlage des Spielers
+	- Anzeige des Gewinns und des neuen Geldbeutel Bestandes
+
+	--> Rückehr ins Hauptmenü oder Game Settings Menü?
+	
+
+
+
+
+
+Bildschirm 1: Hauptmenü
+
+B 2: Game Settings
+Zeigt nächstes Rennen an, der Spieler wählt zu wettende Element und Betrag
+
+B 3 : Game
+
+B 4 : Ergebniss
+
+B 5 : MainMenu
+
+
+
+
+
+
+
 
