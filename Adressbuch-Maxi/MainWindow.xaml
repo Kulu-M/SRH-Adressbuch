@@ -28,39 +28,50 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Border Background="AliceBlue" Grid.ColumnSpan="6"></Border>
-        <Image Source="Assets/1.png" Stretch="Uniform" Grid.Column="3" Grid.Row="0" Width="80" Height="50"></Image>
+        <Image Source="Res/1.png" Stretch="Uniform" Grid.Column="4" Grid.Row="0" Width="80" Height="50"></Image>
         <TextBlock x:Name="textBlock" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" 
-                   FontSize="24" Text="Adressbuch" VerticalAlignment="Bottom" Foreground="DarkOliveGreen"/>
-        
+                   FontSize="24" Text="Adressbuch" VerticalAlignment="Center" Foreground="DarkOliveGreen"/>
+
         <StackPanel Grid.Column="3" Grid.Row="2">
             <TextBlock Text="Anrede" Style="{StaticResource Feldüberschrift}" />
-            <ComboBox Name="cbx_anrede">
-
+            <ComboBox Name="cbx_anrede" Margin="0,0,133,0">
             </ComboBox>
+
+
+
             <TextBlock Text="Nachname" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_nachname" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBox Name="tbx_nachname" Height="20" Text="Mustermann" VerticalContentAlignment="Bottom" Margin="0,0,133,0" />
             <TextBlock Text="Vorname" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_vorname" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBox Name="tbx_vorname" Height="20" Text="Max" VerticalContentAlignment="Bottom" Margin="0,0,133,0" />
             <TextBlock Text="Geburtsdatum" Style="{StaticResource Feldüberschrift}" />
             <DatePicker Name="dp_gebdate" Height="23"></DatePicker>
             <TextBlock Text="Straße und Hausnummer" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_street" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBox Name="tbx_street" Height="20" Text="Musterstraße 20" VerticalContentAlignment="Bottom" />
             <TextBlock Text="Postleitzahl / PLZ" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_plz" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
+            <TextBox Name="tbx_plz" Height="20" Text="XXXXX" VerticalContentAlignment="Bottom" />
             <TextBlock Text="Ort" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_ort" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
-            <TextBlock Text="Telefonnummer" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_telnr" Height="20" Text="test test test" VerticalContentAlignment="Bottom" />
-            <TextBlock Text="E-Mail" Style="{StaticResource Feldüberschrift}" />
-            <TextBox Name="tbx_mail" Height="20" Text="0049-...-........" VerticalContentAlignment="Bottom" />
-            <Button Click="b_save">Save</Button>
-            <Image Name="img_Bild" Width="80" Height="80" Stretch="Fill" MouseLeftButtonUp="img_bild_MouseLeftButtonUp" Source="Assets/2.jpg" ></Image>
+            <TextBox Name="tbx_ort" Height="20" Text="Musterhausen" VerticalContentAlignment="Bottom" />
+
+
+
+            <TextBlock Text="Telefonnummer" Style="{StaticResource Feldüberschrift}"  Width="150" HorizontalAlignment="Left"/>
+
+
+            <TextBox Name="tbx_telnr" Height="20" Text="0049-XXX-XXXXXX" VerticalContentAlignment="Bottom" Width="320" HorizontalAlignment="Left"/>
+            <TextBlock Text="E-Mail" Style="{StaticResource Feldüberschrift}" Width="150" HorizontalAlignment="Left" />
+            <TextBox Name="tbx_mail" Height="20" Text="example@test.com" VerticalContentAlignment="Bottom" Width="320" HorizontalAlignment="Left" />
+            <Button Click="b_save" Content="Update" Margin="0,25,0,0"/>
+
+
+
+
+
         </StackPanel>
 
 
 
         <StackPanel Grid.Column="1" Grid.Row="2">
-            <TextBox Name="tb_filter" Width="150" HorizontalAlignment="Left" Margin="0,0,0,10" TextChanged="Tb_filter_OnTextChanged"></TextBox>
+            <TextBox Name="tb_filter" Text="Filtern..." Width="150" HorizontalAlignment="Left" Margin="0,0,0,10" TextChanged="Tb_filter_OnTextChanged"></TextBox>
             <ListBox Name="lBx_kontakte" Height="400" Width="300" HorizontalAlignment="Left" SelectionChanged="lBx_kontakte_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
@@ -72,10 +83,10 @@
                 </ListBox.ItemTemplate>
             </ListBox>
             <StackPanel Margin="0,10,0,0" Orientation="Horizontal">
-                <Button Content="+" x:Name="b_add" Height="30" Width="30" Margin="0,0,10,0" FontSize="20" Click="b_add_Click" HorizontalAlignment="Center" />
-                <Button Content="-" x:Name="b_del" Height="30" Width="30" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="20" Click="b_del_Click" />
+                <Button Content="-" x:Name="b_del" Height="30" Width="30" Margin="0,0,10,0" HorizontalAlignment="Center" FontSize="20" Click="b_del_Click" VerticalContentAlignment="Center"/>
+                <Button Content="+" x:Name="b_add" Height="30" Width="30" Margin="0,0,10,0" FontSize="20" Click="b_add_Click" HorizontalAlignment="Center" VerticalContentAlignment="Center" />
             </StackPanel>
         </StackPanel>
-        
+        <Image Name="img_Bild" Width="98" Stretch="Fill" MouseLeftButtonUp="img_bild_MouseLeftButtonUp" Source="Pictures/harrison.jpg" HorizontalAlignment="Right" Grid.Column="3" Margin="0,10,0,337" Grid.Row="2"/>
     </Grid>
 </Window>

@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("xfestlegungen.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("res/1.png")]
 
 

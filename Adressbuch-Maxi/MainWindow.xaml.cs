@@ -166,10 +166,16 @@ namespace Adressbuch
 
         private void Tb_filter_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            var filter = (from k in kontakte where k.nachname.StartsWith(tb_filter.Text, StringComparison.InvariantCultureIgnoreCase)select k).ToList();
+            if (tb_filter.Text != "Filtern...")
+            {
+                var filter =
+                    (from k in kontakte
+                        where k.nachname.StartsWith(tb_filter.Text, StringComparison.InvariantCultureIgnoreCase)
+                        select k).ToList();
 
-            lBx_kontakte.ItemsSource = null;
-            lBx_kontakte.ItemsSource = filter;
+                lBx_kontakte.ItemsSource = null;
+                lBx_kontakte.ItemsSource = filter;
+            }
         }
     }
 }
