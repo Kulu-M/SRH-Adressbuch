@@ -5,4 +5,4 @@ SRH Vorlesung - Anwendungsentwicklung - Adressbuch
 
 
 
-![Image](https://github.com/Kulu-M/SRH-Adressbuch/screen.png?raw=true)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
