@@ -53,3 +53,17 @@ C:\Users\Kulu\Documents\SRH-Adressbuch-master\Adressbuch-Maxi\obj\Debug\Adressbu
 C:\Users\Kulu\Documents\SRH-Adressbuch-master\Adressbuch-Maxi\obj\Debug\Kontakte.csproj.GenerateResource.Cache
 C:\Users\Kulu\Documents\SRH-Adressbuch-master\Adressbuch-Maxi\obj\Debug\Adressbuch.exe
 C:\Users\Kulu\Documents\SRH-Adressbuch-master\Adressbuch-Maxi\obj\Debug\Adressbuch.pdb
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\bin\Debug\Adressbuch.exe.config
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch.exe
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch.pdb
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\bin\Debug\Adressbuch.exe
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\bin\Debug\Adressbuch.pdb
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Kontakte.csprojResolveAssemblyReference.cache
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\MainWindow.g.cs
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\App.g.cs
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch_MarkupCompile.cache
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch_MarkupCompile.lref
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\MainWindow.baml
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch.g.resources
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Adressbuch.Properties.Resources.resources
+C:\Users\Kulu\Documents\SRH-AdressbuchNeu\Adressbuch-Maxi\obj\Debug\Kontakte.csproj.GenerateResource.Cache
